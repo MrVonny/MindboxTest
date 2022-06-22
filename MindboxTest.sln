@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTest.AreaMeter", "MindboxTest.AreaMeter\MindboxTest.AreaMeter.csproj", "{5BBDA0FC-2E8E-47F5-B43C-159C9A2732AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTest.Tests", "MindboxTest.Tests\MindboxTest.Tests.csproj", "{7F6247AF-5B52-42F1-B202-3CC5C5B3030F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BBDA0FC-2E8E-47F5-B43C-159C9A2732AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBDA0FC-2E8E-47F5-B43C-159C9A2732AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBDA0FC-2E8E-47F5-B43C-159C9A2732AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBDA0FC-2E8E-47F5-B43C-159C9A2732AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6247AF-5B52-42F1-B202-3CC5C5B3030F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6247AF-5B52-42F1-B202-3CC5C5B3030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6247AF-5B52-42F1-B202-3CC5C5B3030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6247AF-5B52-42F1-B202-3CC5C5B3030F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
