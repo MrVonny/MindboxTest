@@ -49,7 +49,7 @@ namespace MindboxTest.AreaMeter.Shapes
             return new Triangle(a, b, c);
         }
         
-        public static Triangle FromTwoAngleAndSide(double side, double alpha, double beta)
+        public static Triangle FromTwoAnglesAndSide(double side, double alpha, double beta)
         {
             var theta = Math.PI - alpha - beta;
             var b = side / Math.Sin(theta) * Math.Sin(beta);

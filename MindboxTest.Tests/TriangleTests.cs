@@ -57,7 +57,7 @@ namespace MindboxTest.Tests
         [TestCase(1.543, Math.PI/2, 0.1, 0.15481639902785019d,1.5507472770919026d)]
         public void ValidTriangleFrom1SideTest(double side, double alpha, double beta, double expectedB, double expectedC)
         {
-            var triangle = Triangle.FromTwoAngleAndSide(side, alpha, beta);
+            var triangle = Triangle.FromTwoAnglesAndSide(side, alpha, beta);
             Assert.Multiple(() =>
             {
                 Assert.That(triangle.A, Is.EqualTo(side));
@@ -72,7 +72,7 @@ namespace MindboxTest.Tests
         [TestCase(0,Math.PI/4,Math.PI/4)]
         public void InvalidTriangleFrom1SideTest(double side, double alpha, double beta)
         {
-            Assert.Throws<ArgumentException>(() => Triangle.FromTwoAngleAndSide(side, alpha, beta));
+            Assert.Throws<ArgumentException>(() => Triangle.FromTwoAnglesAndSide(side, alpha, beta));
         }
 
         [TestCase(3,4, Math.PI/2)]
